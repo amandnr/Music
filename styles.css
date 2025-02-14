@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282828;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.music-player {
+    background-color: #333;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.cover img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info {
+    margin: 15px 0;
+}
+
+.title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.artist {
+    font-size: 1em;
+    color: #bbb;
+    margin: 5px 0 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.controls button:hover {
+    color: #1db954;
+}
+
+.progress-container {
+    background: #444;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 5px;
+    width: 100%;
+    position: relative;
+    margin: 10px 0;
+}
+
+.progress {
+    background: #1db954;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    color: #bbb;
+}
